@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.parent {
+  padding: 100px;
+  background: linear-gradient(
+      to bottom,
+      rgb(253, 128, 253),
+      rgb(104, 104, 253)
+  );
+  display: flex;
+  justify-content: center;
+}
+
+.parent-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  background-color: white;
+  height: 500px;
+  border-radius: 25px;
+  width: 1000px;
+}
+
+.parent-div .main-text .text-header {
+  margin-top: 50px;
+}
+
+.parent-div .img-div img {
+  margin-top: 50px;
+  height: 400px;
+  width: 500px;
+}
+
+.faq .faq-child .flex-div {
+  display: flex;
+}
+
+.faq .faq-child .flex-div .itemfaq {
+  margin-top: 15px;
+  padding-right: 50px;
+}
+
+.faq .faq-child .flex-div .icon img {
+  height: 50px;
+  width: 50px;
+}
