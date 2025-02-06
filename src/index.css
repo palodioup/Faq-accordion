@@ -204,9 +204,7 @@
   }
 
   .parent-div .img-div img {
-    margin-top: 50px;
-    height: 400px;
-    width: 500px;
+    display: none;
   }
 
   .faq .faq-child .flex-div {
@@ -222,6 +220,9 @@
     height: 50px;
     width: 50px;
   }
+   hr {
+    display: none;
+   }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -255,6 +256,66 @@
     margin-top: 50px;
     height: 400px;
     width: 500px;
+  }
+
+  .faq .faq-child .flex-div {
+    display: flex;
+  }
+
+  .faq .faq-child .flex-div .itemfaq {
+    margin-top: 15px;
+    padding-right: 50px;
+  }
+
+  .faq .faq-child .flex-div .icon img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  body {
+    font-family: Jost;
+  }
+  .parent {
+    padding: 100px;
+    background: linear-gradient(
+      to bottom,
+      rgb(253, 128, 253),
+      rgb(104, 104, 253)
+    );
+    display: flex;
+    justify-content: center;
+  }
+
+  .parent-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: white;
+    height: 500px;
+    border-radius: 25px;
+    width: 1000px;
+  }
+
+  .faq-child {
+    margin-right: 100px;
+  }
+
+  .main-text {
+    margin-bottom: 50px;
+  }
+
+  .parent-div .main-text .text-header {
+    margin-top: 50px;
+  }
+
+  .parent-div .img-div img {
+    margin-top: 50px;
+    height: 300px;
+    width: 400px;
+
   }
 
   .faq .faq-child .flex-div {
