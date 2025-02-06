@@ -52,6 +52,10 @@
   width: 50px;
 }
 
+.ptext {
+  display: none;
+}
+
 @media only screen and (max-width: 100px) {
   .parent {
     display: flex;

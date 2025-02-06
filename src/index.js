@@ -1,34 +1,50 @@
-const faqArrow1 = document.getElementById("arrow");
-const faqArrow2 = document.getElementById("arrow1");
-const faqArrow3 = document.getElementById("arrow2");
-const faqArrow4 = document.getElementById("arrow3");
-const faqArrow5 = document.getElementById("arrow4");
-const textAppend1 = document.getElementById("ht-id1")
-const textAppend2 = document.getElementById("ht-id2")
-const textAppend3 = document.getElementById("ht-id3")
-const textAppend4 = document.getElementById("ht-id4")
-const textAppend5 = document.getElementById("ht-id5")
-const textFaq = `
-  <p>Press the open through the website. If you have the app on your tablet, phone or any other device click on the icon</p>
-`
+const acc = document.getElementById("drop");
+const acc1 = document.getElementById("drop1");
+const acc2 = document.getElementById("drop2");
+const acc3 = document.getElementById("drop3");
+const acc4 = document.getElementById("drop4");
 
-faqArrow1.addEventListener("click", (e) => {
-  e.preventDefault();
-  textAppend1.innerHTML = textFaq
+acc.addEventListener("click", function () {
+  const list = this.nextElementSibling;
+  if (list.style.display === "block") {
+    list.style.display = "none";
+  } else {
+    list.style.display = "block";
+  }
 });
-faqArrow2.addEventListener("click", (e) => {
-  e.preventDefault();
-  textAppend2.innerHTML = textFaq
+
+acc1.addEventListener("click", function () {
+  const list = this.nextElementSibling;
+  if (list.style.display === "block") {
+    list.style.display = "none";
+  } else {
+    list.style.display = "block";
+  }
 });
-faqArrow3.addEventListener("click", (e) => {
-  e.preventDefault();
-  textAppend3.innerHTML = textFaq
+
+acc2.addEventListener("click", function () {
+  const list = this.nextElementSibling;
+  if (list.style.display === "block") {
+    list.style.display = "none";
+  } else {
+    list.style.display = "block";
+  }
 });
-faqArrow4.addEventListener("click", (e) => {
-  e.preventDefault();
-  textAppend4.innerHTML = textFaq
+
+acc3.addEventListener("click", function () {
+  const list = this.nextElementSibling;
+  if (list.style.display === "block") {
+    list.style.display = "none";
+  } else {
+    list.style.display = "block";
+  }
 });
-faqArrow5.addEventListener("click", (e) => {
-  e.preventDefault();
-  textAppend5.innerHTML = textFaq
+
+acc4.addEventListener("click", function () {
+  const list = this.nextElementSibling;
+  if (list.style.display === "block") {
+    list.style.display = "none";
+  } else {
+    list.style.display = "block";
+  }
 });
